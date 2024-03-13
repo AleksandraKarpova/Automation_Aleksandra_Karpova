@@ -27,7 +27,6 @@ public class Saucedemo {
     @Test (priority = 2)
     public void addToCardTest() {
         getWebDriver().findElement(By.cssSelector("[data-test='add-to-cart-sauce-labs-backpack']")).click();
-        //getWebDriver().findElement(By.cssSelector("body div:nth-child(11)")).click();
         getWebDriver().findElement(By.cssSelector("[name$='shirt']")).click();
         getWebDriver().findElement(By.cssSelector("[name*='fleece']")).click();
         getWebDriver().findElement(By.cssSelector(".shopping_cart_link")).click();
